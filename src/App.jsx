@@ -1,17 +1,16 @@
-import './App.css'
-import Greeting from './componts/greeting';
-import Header from './componts/header';
-import Counter from './componts/counter';
-
-
+import "./App.css";
+import Header from "./components/header";
+import Greeting from "./components/greeting";
+import Counter from "./components/counter";
 function App() {
   return (
     <>
-      <Greeting name="Khaalid" surname="Ahmed" />
       <Header />
+      <Greeting name="Khaalid" surname="Ahmed" />
+
       <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
