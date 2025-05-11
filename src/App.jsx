@@ -1,12 +1,15 @@
 import './App.css'
-import Greeting from './greeting'
-import Header from './header'
+import Greeting from './componts/greeting';
+import Header from './componts/header';
+import Counter from './componts/counter';
+
 
 function App() {
   return (
     <>
-  <Greeting name="khaalid" surname= "Ahmed" />
-     <header/>
+      <Greeting name="Khaalid" surname="Ahmed" />
+      <Header />
+      <Counter />
     </>
   )
 }
